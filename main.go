@@ -1,7 +1,7 @@
 package main
 
 import (
-        _ "cmdb-api/routers"
+        _ "github.com/romans1212notes/beego-mysql-api/routers"
 
         "github.com/astaxie/beego"
         "github.com/astaxie/beego/orm"
