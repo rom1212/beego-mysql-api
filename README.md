@@ -13,3 +13,5 @@ bee generate appcode -driver=mysql -conn="root:i2test@tcp(127.0.0.1:3306)/testdb
 bee run -downdoc=true -gendoc=true
 
 ```
+
+Then the swagger UI is accessible at: http://localhost:8080/swagger/
