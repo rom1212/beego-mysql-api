@@ -5,7 +5,7 @@ mysql -u root -p
 mysql> source testdb.sql
 
 # Generate code from mysql
-bee generate appcode -driver=mysql -conn="root:i2test@tcp(127.0.0.1:3306)/testdb" -level=3
+bee generate appcode -driver=mysql -conn="root:test@tcp(127.0.0.1:3306)/testdb" -level=3
 
 # Add main.go
 
